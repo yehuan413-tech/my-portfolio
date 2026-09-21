@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <!-- 导航栏 -->
+        <!-- 导航栏 -->
     <nav class="navbar">
         <div class="nav-brand">inward scape</div>
         <ul class="nav-links">
@@ -19,44 +19,37 @@
     </nav>
 
     <!-- 详情页主内容 -->
-    <main class="container">
+    <main>
+        <!-- 顶部标题区域（保持原样，限制宽度） -->
+        <div class="detail-header">
+            <a href="works.html" class="back-link">← 返回作品</a>
+            <h1 class="detail-title">作品名称一</h1>
+        </div>
 
-        <!-- 返回链接 -->
-        <a href="works.html" class="back-link">← 返回作品</a>
-
-        <!-- 项目标题 -->
-        <h1 class="detail-title">作品名称一</h1>
-
-        <!-- 主图或视频 -->
+        <!-- 主图区域（脱离容器限制，让它更大） -->
         <div class="detail-hero">
             <img src="images/detail-hero.jpg" alt="作品主图">
-            <!-- 如果要放视频，把上面这行替换成：
-            <video src="images/demo.mp4" controls style="width:100%; border-radius:8px;"></video>
-            -->
         </div>
 
-        <!-- 图文介绍 -->
-        <div class="detail-content">
-            <p>这里写作品的详细文字介绍。可以分多个段落，描述你的设计理念、创作过程、项目背景等。</p>
+        <!-- 下方文字与信息（再次放入容器，保持居中排版） -->
+        <div class="container">
+            <div class="detail-content">
+                <p>这里写作品的详细文字介绍。可以分多个段落，描述你的设计理念、创作过程、项目背景等。</p>
+                <img src="images/detail-1.jpg" alt="作品细节图1" class="detail-img">
+                <p>继续写更多的文字介绍。</p>
+                <img src="images/detail-2.jpg" alt="作品细节图2" class="detail-img">
+            </div>
 
-            <img src="images/detail-1.jpg" alt="作品细节图1" class="detail-img">
-
-            <p>继续写更多的文字介绍。</p>
-
-            <img src="images/detail-2.jpg" alt="作品细节图2" class="detail-img">
+            <div class="detail-meta">
+                <h2>项目信息</h2>
+                <ul>
+                    <li><strong>完成时间：</strong>2025年6月</li>
+                    <li><strong>地理位置：</strong>中国 · 上海</li>
+                    <li><strong>项目面积：</strong>120 平方米</li>
+                    <li><strong>项目类型：</strong>品牌空间设计</li>
+                </ul>
+            </div>
         </div>
-
-        <!-- 项目相关信息 -->
-        <div class="detail-meta">
-            <h2>项目信息</h2>
-            <ul>
-                <li><strong>完成时间：</strong>2025年6月</li>
-                <li><strong>地理位置：</strong>中国 · 上海</li>
-                <li><strong>项目面积：</strong>120 平方米</li>
-                <li><strong>项目类型：</strong>品牌空间设计</li>
-            </ul>
-        </div>
-
     </main>
 
     <footer class="footer">

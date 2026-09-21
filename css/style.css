@@ -380,3 +380,47 @@ a:hover {
         margin-top: 20px;
     }
 }
+/* 1. 详情页主图：变大并居中 */
+.detail-hero {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.detail-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+/* 2. 详情页文字和图片：全部居中放置 */
+.detail-content {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center; /* 如果想让文字靠左，把这行删掉 */
+}
+
+/* 3. 内容块里的图片也要居中 */
+.detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 30px auto;
+    display: block;
+}
+
+/* 4. 项目信息也居中 */
+.detail-meta {
+    max-width: 800px;
+    margin: 0 auto 80px;
+    text-align: center; /* 如果想让文字靠左，把这行删掉 */
+}
+/* 详情页顶部标题容器，与主图宽度保持一致，实现左右对齐 */
+.detail-header {
+    width: 100%;
+    max-width: 1400px; /* 和 .detail-hero 的 max-width 保持一致 */
+    margin: 0 auto;
+    padding: 0 20px; /* 和 .detail-hero 的 padding 保持一致 */
+}
