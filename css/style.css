@@ -282,3 +282,101 @@ a:hover {
     border-radius: 8px;
     object-fit: cover;
 }
+/* ===== 作品详情页样式 ===== */
+
+.back-link {
+    display: inline-block;
+    margin: 40px 0 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.back-link:hover {
+    color: #1a1a1a;
+}
+
+.detail-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.detail-hero {
+    margin-bottom: 50px;
+}
+
+.detail-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.detail-content {
+    max-width: 800px;
+    margin-bottom: 60px;
+}
+
+.detail-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 30px 0;
+    display: block;
+}
+
+.detail-meta {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.detail-meta h2 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.detail-meta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.detail-meta li {
+    font-size: 15px;
+    color: #444;
+    padding: 8px 0;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.detail-meta li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-right: 8px;
+}
+
+/* 手机端适配 */
+@media (max-width: 768px) {
+    .detail-title {
+        font-size: 26px;
+    }
+
+    .detail-content p {
+        font-size: 15px;
+    }
+
+    .back-link {
+        margin-top: 20px;
+    }
+}
