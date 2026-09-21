@@ -196,6 +196,19 @@ a:hover {
 
 /* 响应式：手机端适配 */
 @media (max-width: 768px) {
+    .hero-categories {
+        gap: 10px;
+        margin-top: 28px;
+    }
+
+    .category-btn {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+
+    .hero-image {
+        padding-bottom: 50px;
+    }
     .navbar {
         padding: 18px 20px;
         flex-wrap: wrap;
@@ -231,4 +244,41 @@ a:hover {
     .section-title {
         padding-top: 40px;
     }
+}
+/* 首屏分类导航按钮 */
+.hero-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 40px;
+}
+
+.category-btn {
+    font-size: 15px;
+    padding: 10px 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    color: #1a1a1a;
+    transition: all 0.25s;
+}
+
+.category-btn:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #1a1a1a;
+    opacity: 1;
+}
+
+/* 氛围图 */
+.hero-image {
+    padding-bottom: 80px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
 }
