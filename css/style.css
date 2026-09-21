@@ -424,3 +424,12 @@ a:hover {
     margin: 0 auto;
     padding: 0 20px; /* 和 .detail-hero 的 padding 保持一致 */
 }
+/* 详情页作品标题：居中对齐，并保持和下方内容一致的宽度 */
+.detail-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center; /* 让标题文字居中 */
+    max-width: 800px;   /* 与下方文字内容宽度一致 */
+    margin: 0 auto 40px; /* 自动居中，且与主图、下方文字保持合适的间距 */
+}
