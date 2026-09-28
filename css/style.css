@@ -380,18 +380,17 @@ a:hover {
         margin-top: 20px;
     }
 }
-/* 1. 详情页主图：变大并居中 */
+/* 详情页主图：全屏无圆角 */
 .detail-hero {
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto 50px;
-    padding: 0 20px;
+    margin: 0 0 50px 0; /* 去掉左右的 auto 和 padding，让它彻底贴边 */
+    padding: 0;
 }
 
 .detail-hero img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0; /* 取消圆角 */
     display: block;
 }
 
@@ -406,7 +405,7 @@ a:hover {
 .detail-img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0;
     margin: 30px auto;
     display: block;
 }
